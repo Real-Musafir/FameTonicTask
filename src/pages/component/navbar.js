@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <div className="z-50 fixed top-0 left-0 right-0">
       {/* Add Section */}
-      <section className="w-full  text-center text-sm font-medium px-2 py-2 md:py-2 bg-gradient-to-r from-pink-700 via-purple-500 to-cyan-400">
+      <section className="w-full  text-center text-sm font-medium px-4 py-3 md:py-2  bg-gradient-to-r from-red-600 via-purple-500 to-cyan-400">
         <p className="text-white font-semibold">
           🚀 <span className=" text-cyan-300">FRESH BEGINNINGS SALE</span>:
           Extra 25% OFF, Limited Spots -{" "}
