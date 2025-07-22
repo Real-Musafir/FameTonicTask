@@ -86,21 +86,27 @@ export default function Home() {
               ✨ Learn from expert-led courses designed for aspiring influencers
             </li>
           </ul>
-          <div className=" w-full md:w-2/3">
-            <button className="mt-6 mb-1  w-full px-10 py-2 bg-pink-600 hover:bg-pink-500 text-white font-bold rounded-md drop-shadow-[4px_4px_6px_rgba(34,211,238,0.8)]">
-              GET STARTED <span className="ml-1">&gt;</span>
-            </button>
-            <p className="text-xs text-center mt-1">
-              1-minute quiz for personalized insights
-            </p>
+
+          <div className="flex flex-col md:flex-col-reverse items-center w-full">
+            <div>
+              <p className="text-xs mt-4 text-gray-300">
+                By clicking "Get Started", you agree with Terms and Conditions,
+                Privacy Policy, Subscription Terms
+              </p>
+              <p className="text-xs mt-3 text-gray-300">
+                Fametonic. 2025 ©All Rights Reserved.
+              </p>
+            </div>
+
+            <div className=" w-full md:w-2/3">
+              <button className="mt-3 mb-1  w-full px-10 py-2 bg-pink-600 hover:bg-pink-500 text-white font-bold rounded-md drop-shadow-[4px_4px_6px_rgba(34,211,238,0.8)]">
+                GET STARTED <span className="ml-1">&gt;</span>
+              </button>
+              <p className="text-xs text-center mt-1">
+                1-minute quiz for personalized insights
+              </p>
+            </div>
           </div>
-          <p className="text-xs  mb-2 text-gray-300">
-            By clicking "Get Started", you agree with Terms and Conditions,
-            Privacy Policy, Subscription Terms
-          </p>
-          <p className="text-xs  text-gray-300">
-            Fametonic. 2025 ©All Rights Reserved.
-          </p>
         </div>
 
         {/* Right Part */}
