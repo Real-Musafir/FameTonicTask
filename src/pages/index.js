@@ -24,11 +24,15 @@ export default function Home() {
       </section>
 
       {/* Navbar */}
-      <nav className="w-full flex justify-between items-center px-6 py-4 ">
-        <div className="text-2xl font-bold">
-          <span className="text-white">fame</span>
-          <span className="text-pink-500">tonic</span>
-        </div>
+      <nav className="px-6 md:px-20 w-full flex justify-between items-center py-5 ">
+        <Image
+          src="/assets/ftlogo.png"
+          alt="App Preview"
+          width={150}
+          height={150}
+          className="mx-auto md:mx-0"
+        />
+
         <div className="space-x-6 hidden md:flex">
           <a href="#" className="hover:underline">
             About us
@@ -58,14 +62,14 @@ export default function Home() {
       </nav>
 
       {/* Content Section */}
-      <section className="flex flex-col-reverse md:flex-row justify-between items-center px-6 md:px-20 py-12 gap-12 ">
+      <section className="flex flex-col-reverse md:flex-row justify-between px-6 md:px-20 py-5 gap-12 ">
         {/* Left Part */}
         <div className="md:w-1/2 space-y-6 text-center md:text-left">
           <p className="text-2xl md:text-4xl font-semibold">
             Want to Turn Social Media Into a Profitable Career?
           </p>
           <p className="  text-cyan-400 font-extrabold text-2xl md:text-4xl leading-tight drop-shadow-[3px_3px_0_#ec4899]">
-            Discover your way to success with Fametonic
+            Discover your way to success with Fametonic:
           </p>
           <ul className="text-sm md:text-base space-y-2">
             <li className="text-xl text-left pl-6 -indent-[1.7rem]">
