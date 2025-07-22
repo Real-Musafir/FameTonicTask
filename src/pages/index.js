@@ -68,16 +68,18 @@ export default function Home() {
             Discover your way to success with Fametonic
           </p>
           <ul className="text-sm md:text-base space-y-2">
-            <li>
-              🌟 Start growing your influence right away—no waiting required!
+            <li className="text-xl text-left pl-6 -indent-[1.7rem]">
+              ✨ Start growing your influence right away—no waiting required!
             </li>
-            <li>
-              🌟 Create viral TikToks and Reels step by step with easy-to-follow
+            <li className="text-xl text-left pl-6 -indent-[1.7rem]">
+              ✨ Create viral TikToks and Reels step by step with easy-to-follow
               lessons
             </li>
-            <li>🌟 Use a Personal AI Worker to boost your content</li>
-            <li>
-              🌟 Learn from expert-led courses designed for aspiring influencers
+            <li className="text-xl text-left pl-6 -indent-[1.7rem]">
+              ✨ Use a Personal AI Worker to boost your content
+            </li>
+            <li className="text-xl text-left pl-6 -indent-[1.7rem]">
+              ✨ Learn from expert-led courses designed for aspiring influencers
             </li>
           </ul>
           <button className="mt-6 px-6 py-3 bg-pink-500 hover:bg-pink-600 text-white font-bold rounded-full shadow-md w-full md:w-auto">
