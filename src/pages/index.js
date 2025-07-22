@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white font-sans">
+    <main className="min-h-screen  text-white font-sans">
       {/* Header Section */}
       <section className="w-full text-center text-sm font-medium px-2 py-2 md:py-2 bg-gradient-to-r from-pink-700 via-purple-500 to-cyan-400">
         <p className="text-white font-semibold">
@@ -24,7 +24,7 @@ export default function Home() {
       </section>
 
       {/* Navbar */}
-      <nav className="w-full flex justify-between items-center px-6 py-4 bg-black">
+      <nav className="w-full flex justify-between items-center px-6 py-4 ">
         <div className="text-2xl font-bold">
           <span className="text-white">fame</span>
           <span className="text-pink-500">tonic</span>
@@ -58,7 +58,7 @@ export default function Home() {
       </nav>
 
       {/* Content Section */}
-      <section className="flex flex-col-reverse md:flex-row justify-between items-center px-6 md:px-20 py-12 gap-12 bg-black">
+      <section className="flex flex-col-reverse md:flex-row justify-between items-center px-6 md:px-20 py-12 gap-12 ">
         {/* Left Part */}
         <div className="md:w-1/2 space-y-6 text-center md:text-left">
           <h1 className="text-2xl md:text-4xl font-semibold">
@@ -98,7 +98,7 @@ export default function Home() {
         {/* Right Part */}
         <div className="md:w-1/2">
           <Image
-            src="/Banner.png"
+            src="/assets/banner.png"
             alt="App Preview"
             width={500}
             height={500}
