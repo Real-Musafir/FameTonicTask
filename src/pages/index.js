@@ -94,11 +94,11 @@ export default function Home() {
               1-minute quiz for personalized insights
             </p>
           </div>
-          <p className="text-xs text-gray-400">
+          <p className="text-xs  mb-2 text-gray-300">
             By clicking "Get Started", you agree with Terms and Conditions,
             Privacy Policy, Subscription Terms
           </p>
-          <p className="text-xs text-gray-500">
+          <p className="text-xs  text-gray-300">
             Fametonic. 2025 ©All Rights Reserved.
           </p>
         </div>
