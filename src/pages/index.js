@@ -23,6 +23,7 @@ export default function Home() {
         </p>
       </section>
 
+      {/* Navbar */}
       <nav className="w-full flex justify-between items-center px-6 py-4 bg-black">
         <div className="text-2xl font-bold">
           <span className="text-white">fame</span>
@@ -55,6 +56,56 @@ export default function Home() {
           </button>
         </div>
       </nav>
+
+      {/* Content Section */}
+      <section className="flex flex-col-reverse md:flex-row justify-between items-center px-6 md:px-20 py-12 gap-12 bg-black">
+        {/* Left Part */}
+        <div className="md:w-1/2 space-y-6 text-center md:text-left">
+          <h1 className="text-2xl md:text-4xl font-semibold">
+            Want to Turn Social Media Into a Profitable Career?
+          </h1>
+          <p className="text-lg md:text-xl font-semibold text-cyan-400">
+            Discover your way to success with Fametonic:
+          </p>
+          <ul className="text-sm md:text-base space-y-2">
+            <li>
+              🌟 Start growing your influence right away—no waiting required!
+            </li>
+            <li>
+              🌟 Create viral TikToks and Reels step by step with easy-to-follow
+              lessons
+            </li>
+            <li>🌟 Use a Personal AI Worker to boost your content</li>
+            <li>
+              🌟 Learn from expert-led courses designed for aspiring influencers
+            </li>
+          </ul>
+          <button className="mt-6 px-6 py-3 bg-pink-500 hover:bg-pink-600 text-white font-bold rounded-full shadow-md w-full md:w-auto">
+            GET STARTED <span className="ml-1">&gt;</span>
+          </button>
+          <p className="text-xs mt-2">
+            1-minute quiz for personalized insights
+          </p>
+          <p className="text-xs text-gray-400">
+            By clicking "Get Started", you agree with Terms and Conditions,
+            Privacy Policy, Subscription Terms
+          </p>
+          <p className="text-xs text-gray-500">
+            Fametonic. 2025 ©All Rights Reserved.
+          </p>
+        </div>
+
+        {/* Right Part */}
+        <div className="md:w-1/2">
+          <Image
+            src="/Banner.png"
+            alt="App Preview"
+            width={500}
+            height={500}
+            className="mx-auto md:mx-0"
+          />
+        </div>
+      </section>
     </main>
   );
 }
