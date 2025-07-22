@@ -15,7 +15,7 @@ export default function Navbar() {
           <span className="">start your journey today!</span>
         </p>
       </section>
-      <nav className=" px-6 md:px-20 w-full flex justify-between items-center py-5 bg-black text-white shadow-md">
+      <nav className=" px-6 md:px-30 w-full flex justify-between items-center py-5 bg-black text-white shadow-md">
         <Image
           src="/assets/ftlogo.png"
           alt="App Preview"

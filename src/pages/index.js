@@ -19,7 +19,7 @@ export default function Home() {
       <Navbar />
 
       {/* Content Section */}
-      <section className="md:mt-40 mt-20 flex flex-col-reverse md:flex-row justify-between px-6 md:px-20 py-5 gap-12 ">
+      <section className="md:mt-40 mt-20 flex flex-col-reverse md:flex-row justify-between px-6 md:px-30 py-5 gap-12 ">
         {/* Left Part */}
         <div className="z-5 md:w-1/2 space-y-6 text-center md:text-left">
           <p className="text-2xl md:text-4xl font-semibold">
@@ -73,7 +73,7 @@ export default function Home() {
             alt="App Preview"
             width={400}
             height={400}
-            className="mx-auto md:mx-0 scale-100 md:scale-[1.55] scale-[1.1]"
+            className="mx-auto md:mx-0 scale-100 md:scale-[1.40] scale-[1.1] "
           />
         </div>
       </section>
