@@ -14,7 +14,14 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white font-sans">
-      <h1>Home PAGE</h1>
+      {/* Header Section */}
+      <section className="w-full text-center text-sm font-medium px-2 py-2 md:py-2 bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-400">
+        <p>
+          🎉 <span className="font-semibold">FRESH BEGINNINGS SALE</span>: Extra
+          25% OFF, Limited Spots -{" "}
+          <span className="underline">start your journey today!</span>
+        </p>
+      </section>
     </main>
   );
 }
