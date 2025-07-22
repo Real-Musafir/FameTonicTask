@@ -47,7 +47,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-col-reverse items-center w-full">
             <div>
               <p className="text-xs mt-4 text-gray-300">
-                By clicking "Get Started", you agree with Terms and Conditions,
+                By clicking 'Get Started', you agree with Terms and Conditions,
                 Privacy Policy, Subscription Terms
               </p>
               <p className="text-xs mt-3 text-gray-300">

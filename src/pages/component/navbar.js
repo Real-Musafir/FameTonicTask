@@ -57,11 +57,19 @@ export default function Navbar() {
 
       {/* Mobile Menu (Dropdown) */}
       {isMobileMenuOpen && (
-        <div className="md:hidden mt-[85px] px-6 py-4 bg-black text-white space-y-4 fixed top-0 left-0 w-full z-40">
-          <Link href="" className="block hover:underline">
+        <div className="md:hidden mt-35 px-6 py-4 bg-black text-white space-y-4 fixed top-0 left-0 w-full z-40">
+          <Link
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            href=""
+            className="block hover:underline"
+          >
             About us
           </Link>
-          <Link href="" className="block hover:underline">
+          <Link
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            href=""
+            className="block hover:underline"
+          >
             Contact
           </Link>
         </div>
