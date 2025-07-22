@@ -61,11 +61,11 @@ export default function Home() {
       <section className="flex flex-col-reverse md:flex-row justify-between items-center px-6 md:px-20 py-12 gap-12 ">
         {/* Left Part */}
         <div className="md:w-1/2 space-y-6 text-center md:text-left">
-          <h1 className="text-2xl md:text-4xl font-semibold">
+          <p className="text-2xl md:text-4xl font-semibold">
             Want to Turn Social Media Into a Profitable Career?
-          </h1>
-          <p className="text-lg md:text-xl font-semibold text-cyan-400">
-            Discover your way to success with Fametonic:
+          </p>
+          <p className="  text-cyan-400 font-extrabold text-2xl md:text-4xl leading-tight drop-shadow-[3px_3px_0_#ec4899]">
+            Discover your way to success with Fametonic
           </p>
           <ul className="text-sm md:text-base space-y-2">
             <li>
