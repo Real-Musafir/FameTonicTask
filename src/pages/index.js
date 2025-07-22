@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className="min-h-screen  text-white font-sans">
       {/* Header Section */}
-      <section className="w-full text-center text-sm font-medium px-2 py-2 md:py-2 bg-gradient-to-r from-pink-700 via-purple-500 to-cyan-400">
+      <section className="w-full z-7 fixed top-0 text-center text-sm font-medium px-2 py-2 md:py-2 bg-gradient-to-r from-pink-700 via-purple-500 to-cyan-400">
         <p className="text-white font-semibold">
           🎉 <span className=" text-cyan-300">FRESH BEGINNINGS SALE</span>:
           Extra 25% OFF, Limited Spots -{" "}
@@ -24,7 +24,7 @@ export default function Home() {
       </section>
 
       {/* Navbar */}
-      <nav className="px-6 md:px-20 w-full flex justify-between items-center py-5 ">
+      <nav className="z-6 m-0 top-10  fixed px-6 md:px-20 w-full flex justify-between items-center py-5 ">
         <Image
           src="/assets/ftlogo.png"
           alt="App Preview"
@@ -62,9 +62,9 @@ export default function Home() {
       </nav>
 
       {/* Content Section */}
-      <section className="flex flex-col-reverse md:flex-row justify-between px-6 md:px-20 py-5 gap-12 ">
+      <section className="md:mt-40 mt-20 flex flex-col-reverse md:flex-row justify-between px-6 md:px-20 py-5 gap-12 ">
         {/* Left Part */}
-        <div className="md:w-1/2 space-y-6 text-center md:text-left">
+        <div className="z-5 md:w-1/2 space-y-6 text-center md:text-left">
           <p className="text-2xl md:text-4xl font-semibold">
             Want to Turn Social Media Into a Profitable Career?
           </p>
@@ -110,13 +110,13 @@ export default function Home() {
         </div>
 
         {/* Right Part */}
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 w-full">
           <Image
             src="/assets/banner.png"
             alt="App Preview"
-            width={500}
-            height={500}
-            className="mx-auto md:mx-0"
+            width={400}
+            height={400}
+            className="mx-auto md:mx-0 scale-100 md:scale-[1.55] scale-[1.1]"
           />
         </div>
       </section>
