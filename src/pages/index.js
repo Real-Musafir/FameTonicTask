@@ -55,7 +55,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className=" w-full md:w-2/3">
+            <div className="w-full md:w-2/3 md:ml-0 ml-auto mr-auto">
               <button className="mt-3 mb-1 cursor-pointer w-full px-10 py-2 bg-red-600 hover:bg-red-500 text-white font-bold rounded-md drop-shadow-[4px_4px_6px_rgba(34,211,238,0.8)]">
                 GET STARTED <span className="ml-1">&gt;</span>
               </button>
