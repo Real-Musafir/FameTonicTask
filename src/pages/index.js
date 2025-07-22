@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
+import Navbar from "./component/navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,52 +15,8 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <main className="min-h-screen  text-white font-sans">
-      {/* Header Section */}
-      <section className="w-full z-7 fixed top-0 text-center text-sm font-medium px-2 py-2 md:py-2 bg-gradient-to-r from-pink-700 via-purple-500 to-cyan-400">
-        <p className="text-white font-semibold">
-          🎉 <span className=" text-cyan-300">FRESH BEGINNINGS SALE</span>:
-          Extra 25% OFF, Limited Spots -{" "}
-          <span className="">start your journey today!</span>
-        </p>
-      </section>
-
       {/* Navbar */}
-      <nav className="z-6 m-0 top-10  fixed px-6 md:px-20 w-full flex justify-between items-center py-5 ">
-        <Image
-          src="/assets/ftlogo.png"
-          alt="App Preview"
-          width={150}
-          height={150}
-          className="mx-auto md:mx-0"
-        />
-
-        <div className="space-x-6 hidden md:flex">
-          <a href="#" className="hover:underline">
-            About us
-          </a>
-          <a href="#" className="hover:underline">
-            Contact
-          </a>
-        </div>
-        <div className="md:hidden">
-          <button>
-            <svg
-              className="w-6 h-6 text-white"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-          </button>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* Content Section */}
       <section className="md:mt-40 mt-20 flex flex-col-reverse md:flex-row justify-between px-6 md:px-20 py-5 gap-12 ">
@@ -99,7 +56,7 @@ export default function Home() {
             </div>
 
             <div className=" w-full md:w-2/3">
-              <button className="mt-3 mb-1  w-full px-10 py-2 bg-pink-600 hover:bg-pink-500 text-white font-bold rounded-md drop-shadow-[4px_4px_6px_rgba(34,211,238,0.8)]">
+              <button className="mt-3 mb-1 cursor-pointer w-full px-10 py-2 bg-pink-600 hover:bg-pink-500 text-white font-bold rounded-md drop-shadow-[4px_4px_6px_rgba(34,211,238,0.8)]">
                 GET STARTED <span className="ml-1">&gt;</span>
               </button>
               <p className="text-xs text-center mt-1">
